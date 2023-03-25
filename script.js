@@ -27,7 +27,7 @@ function removeLocation()
 {
     localStorage.removeItem('latitude');
     localStorage.removeItem('longitude');
-//     innerItem.style.display = 'none'; 
+    innerItem.style.display = 'none'; 
     mapData.style.display = 'none'; 
 }
 
